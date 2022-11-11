@@ -1,0 +1,66 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.println("Kā tevi sauc?");
+        String vārds = scan.nextLine();
+        System.out.println("Čau" + " " + vārds);
+        System.out.println("Drīksti uzdot man jautājumus:");
+        System.out.println("kas tu esi?");
+        System.out.println("vai tev ir vārds?");
+        System.out.println("kāds ir tavs vārds?");
+        System.out.println("ko tu dari?");
+        System.out.println("Kā tu tiki veidots?");
+
+        String Jautājums = scan.nextLine();
+
+        if (Jautājums.equals("kas tu esi?")) {
+            System.out.println("Es esmu izveidots chatbots");
+        } else if (Jautājums.equals("vai tev ir vārds?")) {
+            System.out.println("Jā!");
+        } else if (Jautājums.equals("kāds ir tavs vārds?")) {
+            System.out.println("Čatijs");
+        } else if (Jautājums.equals("ko tu dari?")) {
+            System.out.println("Runājos tagad ar tevi " + vārds);
+        } else if (Jautājums.equals("Kā tu tiki veidots?")) {
+            System.out.println("Mani uzrakstija kodā.");
+        } else {
+            System.out.println("Nav pareizs jautājums");
+
+        }
+        String Jautājums2 = scan.nextLine();
+
+            if (Jautājums2.equals("kas tu esi?")) {
+                System.out.println("Es esmu izveidots chatbots");
+            } else if (Jautājums2.equals("vai tev ir vārds?")) {
+                System.out.println("Jā!");
+            } else if (Jautājums2.equals("kāds ir tavs vārds?")) {
+                System.out.println("Čatijs");
+            } else if (Jautājums2.equals("ko tu dari?")) {
+                System.out.println("Runājos tagad ar tevi " + vārds);
+            } else if (Jautājums2.equals("Kā tu tiki veidots?")) {
+                System.out.println("Mani uzrakstija kodā.");
+            } else {
+                System.out.println("Nav pareizs jautājums");
+            }
+        String Jautājums3 = scan.nextLine();
+
+        if (Jautājums3.equals("kas tu esi?")) {
+            System.out.println("Es esmu izveidots chatbots");
+        } else if (Jautājums3.equals("vai tev ir vārds?")) {
+            System.out.println("Jā!");
+        } else if (Jautājums3.equals("kāds ir tavs vārds?")) {
+            System.out.println("Čatijs");
+        } else if (Jautājums3.equals("ko tu dari?")) {
+            System.out.println("Runājos tagad ar tevi " + vārds);
+        } else if (Jautājums3.equals("Kā tu tiki veidots?")) {
+            System.out.println("Mani uzrakstija kodā.");
+        } else {
+            System.out.println("Nav pareizs jautājums");
+        }
+        System.out.println("Jautājumi ir beigušies. :) Atā " + vārds);
+        }
+    }
